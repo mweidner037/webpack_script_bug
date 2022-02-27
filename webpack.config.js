@@ -4,7 +4,7 @@ const InlineChunkHtmlPlugin = require("react-dev-utils/InlineChunkHtmlPlugin");
 
 module.exports = {
   mode: "development",
-  devtool: "eval-source-map",
+  devtool: false,
   entry: "./src/main.js",
   output: {
     filename: "[name].js",
